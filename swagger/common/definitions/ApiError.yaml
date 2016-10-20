@@ -1,0 +1,20 @@
+required:
+  - message
+  - status
+properties:
+  message:
+    type: string
+    description: |
+      Error response explanation for users.
+  status:
+    type: integer
+    description: |
+      A reference number for this error.
+  type:
+    type: string
+    description: |
+      A reference name for the error.
+  details:
+    type: string
+    description: |
+      Additional diagnostic information about the error for developers.

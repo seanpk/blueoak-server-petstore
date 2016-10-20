@@ -1,0 +1,29 @@
+{
+	"express": {
+		"port": "3003",
+		"middleware": [
+			"bodyParser",
+      "cors"
+		]
+	},
+	"cluster": {
+		"maxWorkers": 1
+	},
+	"bodyParser": {
+		"json": {}
+	},
+  "cors": {
+    "origin": "*"
+  },
+  "swagger": {
+    "refCompiler": {
+      "bos-petstore": {
+        "baseSpecFile": "bos-petstore.yaml",
+        "refDirs": [
+          "v1/",
+          "common/"
+        ]
+      }
+    }
+  }
+}

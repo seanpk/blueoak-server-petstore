@@ -1,0 +1,16 @@
+get:
+  operationId: getPetDetails
+  summary: |
+    Get a Pet's details
+  tags:
+    - Pets
+  parameters:
+    - $ref: '../../common/parameters/path_id.yaml'
+  responses:
+    200:
+      schema:
+        $ref: '../definitions/Pet.yaml'
+      description: |
+        The requested Pet
+    404:
+     $ref: '../../common/responses/NotFound.yaml'

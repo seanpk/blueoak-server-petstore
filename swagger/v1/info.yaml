@@ -1,0 +1,8 @@
+version: 1.0.0
+title: Swagger Pet Store on BlueOak Server
+description: |
+  **This example includes a working backend that you can run locally**
+  
+  You can try all HTTP operation described in this Swagger spec.
+  
+  Find source code of this API [here](https://github.com/seanpk/blueoak-server-petstore)

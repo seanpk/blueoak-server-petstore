@@ -1,0 +1,6 @@
+schema:
+  $ref: '../definitions/ApiError.yaml'
+description: |
+  **Not Found**
+  
+  The requested resource was not found.

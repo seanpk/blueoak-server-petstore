@@ -1,0 +1,19 @@
+allOf:
+  - $ref: '../../common/definitions/AtId.yaml'
+  - type: object
+    required:
+      - name
+      - kind
+    properties:
+      name:
+        type: string
+        description: |
+          The name of this Pet
+      kind:
+        type: string
+        enum:
+          - Cat
+          - Dog
+          - Elephant
+          - Fish
+          - Guinea Pig

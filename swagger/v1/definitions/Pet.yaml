@@ -1,0 +1,14 @@
+allOf:
+  - $ref: 'PetSummary.yaml'
+  - type: object
+    properties:
+      age:
+        type: integer
+        format: int32
+      birthdate:
+        type: string
+        format: date
+      breed:
+        type: string
+        description: |
+          More specific information on the kind of pet
