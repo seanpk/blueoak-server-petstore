@@ -1,6 +1,6 @@
 {
   "name": "blueoak-server-petstore",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.1",
   "description": "What would the Swagger Pet Store example look like if writen with BlueOak? This.",
   "repository": {
     "type": "git",
